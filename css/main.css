@@ -17,6 +17,7 @@
 
 body {
     font-family: 'Outfit', sans-serif;
+    background: var(--light-gray);
 }
 
 p {
@@ -24,3 +25,46 @@ p {
 }
 
 /* Default Settings End */
+
+/* QR code card start */
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 152px;
+}
+
+section.qr-card {
+    width: 320px;
+    height: 497px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--white);
+    border-radius: 15px;
+    gap: 1rem;
+}
+
+section.qr-card img {
+    width: 288px;
+    height: 288px;
+    margin-top: .6rem;
+    border-radius: 15px;
+}
+
+section.qr-card h3 {
+    font-size: 22px;
+    font-weight: 700;
+    padding-left: 2.2rem;
+    padding-right: 1rem;
+}
+
+section.qr-card p {
+    padding-left: 2.2rem;
+    padding-right: 2rem;
+    text-align: center;
+    color: var(--grayish-blue);
+}
+
+/* QR code card end */
